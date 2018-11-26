@@ -92,7 +92,7 @@ class Classify(object):
             print('*'*50)
         print('\nCV accuracy: %.3f +/- %.3f' % (np.mean(self.final_accuracy), np.std(self.final_accuracy)))
         print('*'*50)
-        print('====================== 100% Naive Bayes 100% Completed ===========================\n\n')
+        print('====================== 100% Support Vector Machine 100% Completed ===========================\n\n')
         
     def RandForest(self):
         print('====================== Start MultinomialNB ===========================')
@@ -148,7 +148,7 @@ class Classify(object):
             print('*'*50)
         print('\nCV accuracy: %.3f +/- %.3f' % (np.mean(self.final_accuracy), np.std(self.final_accuracy)))
         print('*'*50)
-        print('====================== 100% MultinomialNB 100% Completed ===========================')
+        print('====================== 100% Random Forest 100% Completed ===========================')
         
         
         
